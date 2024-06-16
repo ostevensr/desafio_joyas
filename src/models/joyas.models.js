@@ -18,7 +18,7 @@ export const solicitaJoyas = async ({ limits = 2, order_by = 'id_ASC', page = 1 
     }
 };
 
-//Filtrar Joyas
+//Solicitar Joyas con Filtros
 
 export const filtroJoyas = async ({ precio_min, precio_max, categoria, metal }) => {
     let filtros = [];
